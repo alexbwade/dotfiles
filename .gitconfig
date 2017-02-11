@@ -3,3 +3,9 @@
 	email = alexbwade@gmail.com
 [alias]
 	list = ls-tree -r master --name-only
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	unstage = reset HEAD --
+	last = log -1 HEAD
