@@ -1,0 +1,5 @@
+[user]
+	name = Alex Wade
+	email = alexbwade@gmail.com
+[alias]
+	list = ls-tree -r master --name-only
