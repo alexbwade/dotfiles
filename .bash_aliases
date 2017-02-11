@@ -1,3 +1,5 @@
+alias mkdir="mkdir -p"
+alias path='echo $PATH | tr -s ":" "\n"'
 alias npm_uninstall_all="npm uninstall `ls -1 node_modules | tr '/\n' ' '`"
 
 # domains
