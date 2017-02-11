@@ -15,6 +15,7 @@ syntax enable " enable syntax highlighting (previously syntax on)
 colorscheme monokai
 let g:monokai_term_italic = 1 " a couple of special monokai rules
 let g:monokai_gui_italic = 1
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab")
 set number " show line numbers
 set laststatus=2 " last window always has statusline
 filetype indent on " activates indenting for files
